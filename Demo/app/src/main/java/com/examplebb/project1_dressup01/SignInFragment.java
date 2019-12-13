@@ -70,37 +70,6 @@ public class SignInFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_signin, container, false);
 
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.fragment_signin);
-
-//        loginButton = findViewById(R.id.login_button);
-//        txtName = findViewById(R.id.profile_name);
-//        txtEmail = findViewById(R.id.profile_email);
-//        circleImageView = findViewById(R.id.profile_pic);
-//
-//        callbackManager = CallbackManager.Factory.create();
-//        loginButton.setReadPermissions(Arrays.asList("email","public_profile"));
-//        checkLoginStatus();
-//
-//        loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
-//            @Override
-//            public void onSuccess(LoginResult loginResult)
-//            {
-//
-//            }
-//
-//            @Override
-//            public void onCancel() {
-//
-//            }
-//
-//            @Override
-//            public void onError(FacebookException error) {
-//
-//            }
-//        });
-
-
         callbackManager = CallbackManager.Factory.create();
         loginButton = (LoginButton) view.findViewById(R.id.login_button);
         loginButton.setReadPermissions("user_friends");
