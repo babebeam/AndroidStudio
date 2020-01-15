@@ -9,4 +9,27 @@
     <string name="facebook_app_id">1175786939478240</string>
     <string name="fb_login_protocol_scheme">fb1175786939478240</string>
 
+
+    <string name="list">Active Jackets</string>
+    <string name="list1">Active Tops</string>
+    <string name="list2">Bags &amp; Bag Straps</string>
+    <string name="list3">Dresses</string>
+    <string name="list4">Hats And Hair</string>
+    <string name="list5">Jewelry</string>
+    <string name="list6">Jumpsuits &amp; Rompers</string>
+    <string name="list7">Leggings</string>
+    <string name="list8">Outerwear</string>
+    <string name="list9">Pants</string>
+    <string name="list10">Scarves</string>
+    <string name="list11">Shoes</string>
+    <string name="list12">Shorts</string>
+    <string name="list13">Skirts</string>
+    <string name="list14">Sports Bras</string>
+    <string name="list15">Sunglasses</string>
+    <string name="list16">Swimwear</string>
+    <string name="list17">Top</string>
+
+
+
+
 </resources>

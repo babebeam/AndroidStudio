@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ListActivity">
+    tools:context=".ListActivity2">
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -29,13 +29,13 @@
             android:background="@color/colorPrimary"
             android:minHeight="?attr/actionBarSize"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:title="@string/list"
+            app:title="@string/list2"
             app:titleTextColor="@color/colorAccent" />
 
 <!--       <androidx.appcompat.widget.Toolbarbar></androidx.appcompat.widget.Toolbarbar>-->
 
         <androidx.gridlayout.widget.GridLayout
-            android:id="@+id/gird1"
+            android:id="@+id/gird2"
             android:layout_width="match_parent"
             android:layout_height="675dp"
             android:layout_marginTop="56dp">

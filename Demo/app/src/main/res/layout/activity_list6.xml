@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ListActivity">
+    tools:context=".ListActivity6">
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -29,7 +29,7 @@
             android:background="@color/colorPrimary"
             android:minHeight="?attr/actionBarSize"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:title="@string/list"
+            app:title="@string/list6"
             app:titleTextColor="@color/colorAccent" />
 
 <!--       <androidx.appcompat.widget.Toolbarbar></androidx.appcompat.widget.Toolbarbar>-->
