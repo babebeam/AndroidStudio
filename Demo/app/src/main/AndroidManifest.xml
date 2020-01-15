@@ -12,6 +12,23 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ListActivity"></activity>
+        <activity android:name=".ListActivity1"></activity>
+        <activity android:name=".ListActivity2"></activity>
+        <activity android:name=".ListActivity3"></activity>
+        <activity android:name=".ListActivity4"></activity>
+        <activity android:name=".ListActivity5"></activity>
+        <activity android:name=".ListActivity6"></activity>
+        <activity android:name=".ListActivity7"></activity>
+        <activity android:name=".ListActivity8"></activity>
+        <activity android:name=".ListActivity9"></activity>
+        <activity android:name=".ListActivity10"></activity>
+        <activity android:name=".ListActivity11"></activity>
+        <activity android:name=".ListActivity12"></activity>
+        <activity android:name=".ListActivity13"></activity>
+        <activity android:name=".ListActivity14"></activity>
+        <activity android:name=".ListActivity15"></activity>
+        <activity android:name=".ListActivity16"></activity>
+        <activity android:name=".ListActivity17"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

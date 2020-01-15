@@ -40,7 +40,7 @@
             android:minHeight="?attr/actionBarSize"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:title="@string/app_name"
-            app:titleTextColor="@color/colorAccent"/>
+            app:titleTextColor="@color/colorAccent" />
 
         <ListView
             android:id="@+id/lv_closet"
@@ -51,12 +51,28 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="60dp"
             android:choiceMode="singleChoice"
+            android:clickable="true"
             android:listSelector="@drawable/list_view_selected"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"></ListView>
 
+
+        <Button
+            android:id="@+id/bt_camera"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="580dp"
+            android:layout_marginBottom="56dp"
+            android:paddingTop="8dp"
+            android:gravity="center_horizontal"
+            android:background="#e2dde2"
+            android:drawableTop="@drawable/ic_camera_black_24dp"></Button>
+
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:layout_marginLeft="280dp"-->
+<!--        android:background="@drawable/circle"-->
 
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
